@@ -1,7 +1,7 @@
 public class Glowna {
     static int Policz(int a, int b)
     {
-        return a*b;
+        return (a+b)*(a-b);
     }
 
     public static void main(String[] args)
