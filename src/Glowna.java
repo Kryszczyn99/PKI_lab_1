@@ -1,7 +1,11 @@
 public class Glowna {
-    public static void main(String[] args)
+    static int Policz(int a, int b)
     {
-        System.out.println("Raz dwa: ");
+        return a*b;
     }
 
+    public static void main(String[] args)
+    {
+        System.out.println("Raz dwa: " +Policz(2,3));
+    }
 }
